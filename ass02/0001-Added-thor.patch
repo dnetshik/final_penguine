@@ -1,0 +1,28 @@
+From c6f20df177d416526f75354ade9739f8d13c95ba Mon Sep 17 00:00:00 2001
+From: Donald <netshiku@gmail.com>
+Date: Tue, 11 Sep 2018 09:20:30 +0200
+Subject: [PATCH] Added thor
+
+Added: -thor_kernel to version string
+Signed-of-by: Netshikulwe Donald<netshiku@gmail.com>
+Description: this is a -thor_kernel patch
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 4d5c883a98e5..e8b069b0ec54 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 19
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc3
++EXTRAVERSION = -thor__kernel
+ NAME = Merciless Moray
+ 
+ # *DOCUMENTATION*
+-- 
+2.16.2
+
